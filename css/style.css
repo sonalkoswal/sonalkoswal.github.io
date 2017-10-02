@@ -186,6 +186,7 @@ textarea:focus {
 
 #main-nav .navbar-header a {
 	color: #01b1d7;
+	font-weight: bold;
 }
 /*Toggle Menu*/
 #main-nav .navbar-toggle {
@@ -285,15 +286,14 @@ textarea:focus {
 	color: #fff;
 }
 
+
 #slider .caption p {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
 	font-size: 24px;
 	font-style: italic;
 	margin-top: 30px;
-	color: white;
-	background-color: #01b1d7;
-	
+	color:white;
 }
 
 #slider .caption button {
