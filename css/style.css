@@ -122,17 +122,18 @@ textarea:focus {
 	float: left;
 }
 
-.top-left ul >li {
+.top-right ul >li {
 	display: inline-block;
 	margin-right: 15px;
 }
 
-.top-left a {
+.top-right a {
 	font-size: 16px;
 	color: #333;
+	
 }
 
-.top-left a:hover {
+.top-right a:hover {
 	color: #01b1d7;
 }
 
