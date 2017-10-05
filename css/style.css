@@ -111,7 +111,7 @@ textarea:focus {
 /*Header*/
 /*Top nav left*/
 .top-nav {
-	;
+	
 	color: #333;
 	line-height: 40px;
 	border-bottom: 1px solid #01b1d7;
@@ -188,6 +188,7 @@ textarea:focus {
 #main-nav .navbar-header a {
 	color: #01b1d7;
 	font-weight: bold;
+	font-size: 27px;
 }
 /*Toggle Menu*/
 #main-nav .navbar-toggle {
