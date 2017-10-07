@@ -13,16 +13,36 @@ body {
 	-moz-font-smoothing: antialiased;
 }
 
+
+.myslider {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	height: 100%;
+	overflow: hidden;
+	transition: all 1s;
+  }
+  
+  .myslider.close {
+	top: 100%;
+	height: 0;
+  }
+  
 .favfont{
 
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .name{
-	color:white;	
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
-	font-size: 42px;
-	text-transform: uppercase;
+	font-size: 40px;
+}
+
+.para{
+	
+			font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	
+			font-size:16px;
 }
 a {
 	text-decoration: none;
@@ -36,9 +56,7 @@ a:hover {
 	text-decoration: none;
 }
 
-img {
-	max-width: 100%;
-}
+
 
 ul {
 	list-style: none;
@@ -262,31 +280,24 @@ textarea:focus {
 
 /*Main Slider*/
 #slider {
-	margin: 0;
-	padding: 0;
-	position: relative;
-}
-
-.flexslider {
-	border: 0;
-}
-
-#slider.flexslider .slides > li img {
 	
 }
 
+.flexslider {
+
+}
+
+
+
 /*Slider Caption*/
 #slider .caption {
-	position: absolute;
-	width: 600px;
-	top: 50%;
+
 }
 
 #slider .caption h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
 	font-size: 42px;
-	text-transform: uppercase;
 }
 
 #slider .caption span {
@@ -325,17 +336,22 @@ textarea:focus {
 /*Media for mobile*/
 @media screen and (min-width: 320px) and (max-width: 520px) {
 	#slider .caption {
-		position: absolute;
-		width: 400px;
-		top: 55%;
+	
 	}
 
 	.name{
-		color:white;	font-family: 'Josefin Sans', sans-serif;
+		color:white;	
+		font-family: 'Josefin Sans', sans-serif;
 		font-weight: bold;
-		font-size: 42px;
-		text-transform: uppercase;
+		font-size: 32px;
 		text-align: center;
+	}
+
+	.para{
+
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+		font-size:13px;
 	}
 	#slider .caption h2 {
 		font-size: 15px;
@@ -350,11 +366,7 @@ textarea:focus {
 	}
 
 	#slider .caption .btn {
-		width: 80px;
-	    height: 20px;
-		font-size: 10px;
-		margin-top: 5px;
-		padding: 0;
+
 	}
 }
 
@@ -388,20 +400,16 @@ textarea:focus {
 
 /*Control Nav*/
 #slider .flex-control-nav {
-	position: absolute;
-	display: inline;
-	z-index: 2;
+
 }
 
 #slider .flex-control-nav li {
-	margin: 5px;
-	display: inline-block;
+
 }
 
 #slider .flex-control-paging li a {
 	background: #fff;
-	width: 12px;
-	height: 12px;
+
 	border-radius: 50%;
 	border: 1px solid #01b1d7;
 }
@@ -412,8 +420,7 @@ textarea:focus {
 
 #slider .flex-control-paging li a.flex-active {
 	background: #01b1d7;
-	width: 12px;
-	height: 12px;
+
 }
 
 /*About*/
@@ -973,10 +980,6 @@ textarea:focus {
 	position: relative;
 }
 
-#portfolio .portfolio-thumbnail img {
-	width: 100%;
-	height:auto;
-}
 
 #portfolio .portfolio-thumbnail .col-md-3 {
 	padding: 0;
@@ -1193,11 +1196,6 @@ textarea:focus {
 	vertical-align: middle;
 }
 
-#client img {
-	max-height: 100px;
-	vertical-align: middle;
-}
-
 /*Media*/
 @media screen and (min-width: 320px) and (max-width: 520px) {
 	#contact {
@@ -1286,12 +1284,6 @@ textarea:focus {
 
 #footer .footer-heading ul > li > a:hover {
 	color: #01b1d7;
-}
-
-#footer .insta img {
-	float: left;
-	width: 100px;
-	height: 100px;
 }
 
 .credits a {
