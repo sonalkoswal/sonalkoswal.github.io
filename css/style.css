@@ -12,6 +12,15 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
 }
+a{
+	color:white;
+
+}
+
+a:hover{
+
+	color: #01b1d7;
+}
 
 .myButton{
 	background-color: #01b1d7;
