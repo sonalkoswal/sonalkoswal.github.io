@@ -13,6 +13,19 @@ body {
 	-moz-font-smoothing: antialiased;
 }
 
+.myButton{
+	background-color: #01b1d7;
+	border-color:black;
+	color: white;
+
+
+}
+
+.myButton:hover{
+	background-color: #fff;
+	border-color: black;
+	color: #01b1d7;
+}
 
 .myslider {
 	position: absolute;
@@ -35,7 +48,7 @@ body {
 .name{
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 42px;
 }
 
 .para{
@@ -339,6 +352,8 @@ textarea:focus {
 	
 	}
 
+
+	
 	.name{
 		color:white;	
 		font-family: 'Josefin Sans', sans-serif;
@@ -435,7 +450,7 @@ textarea:focus {
 #about .about-heading h2 {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
-	font-size: 45px;
+	font-size: 38px;
 	color: #01b1d7;
 }
 
