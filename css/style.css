@@ -19,22 +19,9 @@ a{
 
 a:hover{
 
-	color: #01b1d7;
-}
-
-.myButton{
-	background-color: #01b1d7;
-	border-color:black;
 	color: white;
-
-
 }
 
-.myButton:hover{
-	background-color: #fff;
-	border-color: black;
-	color: #01b1d7;
-}
 
 .myslider {
 	position: absolute;
@@ -136,13 +123,15 @@ textarea:focus {
 	-webkit-transition: background .3s linear;
 	-o-transition: background .3s linear;
 	transition: background .3s linear;
+	background-color: #01b1d7;
+	color: #222222;
+	border-color: #222222;
 }
 
-.btn:focus {
-	-moz-box-shadow: none;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	outline: none;
+.btn:hover {
+	background-color: #222222;
+	color: white;
+	border-color:#222222;
 }
 
 .cover {
