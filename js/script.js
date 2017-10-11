@@ -67,6 +67,8 @@ $(document).ready(function() {
 	});
 
 
+
+
 	//Google Map
     var get_latitude = $('#google-map').data('latitude');
     var get_longitude = $('#google-map').data('longitude');
