@@ -28,6 +28,8 @@ a:hover{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding: 5%;
+
 }
 
 .myslider {
@@ -371,6 +373,12 @@ textarea:focus {
 		font-weight: bold;
 		font-size: 32px;
 		text-align: center;
+	}
+
+		
+	.mainheader{
+		background-image: url('../images/header_9.jpeg');
+		padding: 20px;
 	}
 
 	.testimonial{
