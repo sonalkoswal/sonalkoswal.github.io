@@ -24,6 +24,10 @@ a:hover{
 
 .mainheader{
 	background-image: url('../images/header_9.jpeg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .myslider {
