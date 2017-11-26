@@ -23,7 +23,7 @@ a:hover{
 }
 
 .mainheader{
-	background-image: url('../images/header_9.jpeg');
+	background-image: url('../images/header_12.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -377,7 +377,7 @@ textarea:focus {
 
 		
 	.mainheader{
-		background-image: url('../images/header_9.jpeg');
+		background-image: url('../images/header_12.jpg');
 		padding: 20px;
 	}
 
