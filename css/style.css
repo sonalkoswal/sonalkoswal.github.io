@@ -55,6 +55,37 @@ a:hover{
 	font-size: 42px;
 	font-weight: bold;
 }
+.nametag{
+	color:white;	
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+	
+}
+.btnHome {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	width: 200px;
+	height: 40px;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-transition: background .3s linear;
+	-webkit-transition: background .3s linear;
+	-o-transition: background .3s linear;
+	transition: background .3s linear;
+	background-color: #4A235A	;
+	color: #222222;
+	border-color: #222222;
+	
+}
+
+.btnHome:hover {
+	background-color: #222222;
+	color: white;
+	border-color:#222222;
+}
+
 .testimonial{
 
 	height:220px;
@@ -373,6 +404,13 @@ textarea:focus {
 		font-weight: bold;
 		font-size: 32px;
 		text-align: center;
+	}
+	.nametag{
+		color:white;	
+		font-family: 'Raleway', sans-serif;
+		font-size: 14px;
+		text-align: center;
+		
 	}
 
 		
