@@ -61,6 +61,9 @@ a:hover{
 	font-size: 18px;
 	
 }
+.leaveSpaceOnMD{
+	margin-top:50px;
+}
 .btnHome {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
@@ -412,11 +415,14 @@ textarea:focus {
 		text-align: center;
 		
 	}
+	.leaveSpaceOnXS{
+		margin-top: 40px;
+	}
 
 		
 	.mainheader{
 		background-image: url('../images/header_12.jpg');
-		padding: 20px;
+		padding: 30px;
 	}
 
 	.testimonial{
